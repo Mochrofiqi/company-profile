@@ -40,6 +40,11 @@ html {
     transform: scale(1.1);
 }
 
+.mySwiper > .swiper-container > .swiper-wrapper > .swiper-slide-active {
+    transition: all;
+    transition-duration: 3s;
+}
+
 .mySwiperBisnis > .swiper-button-next,
 .mySwiperBisnis > .swiper-button-prev,
 .testimonySwipper > .swiper-button-next,
@@ -877,3 +882,4 @@ html {
         width: screen;
     }
 }
+

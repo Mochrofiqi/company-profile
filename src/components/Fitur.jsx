@@ -6,8 +6,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import '../styles/swiper.css'
-import '../index.css'
+import '../styles/swiper.css';
+import '../index.css';
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
@@ -54,7 +54,7 @@ export default function Fitur() {
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
             >
-                <SwiperSlide className='bg-transparent'>
+                <SwiperSlide className='bg-transparent swiper-wrapper'>
                     <div className="flex items-center justify-center m-12">
                         <div className="w-full p-12 h-full rounded-2xl shadow-xl bg-primary-500">
                             <img src='/public/FitTele.svg' alt="Content Image" className="max-w-28 object-cover mb-4 rounded-md m-auto" />

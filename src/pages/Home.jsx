@@ -1,10 +1,11 @@
 import NavBar from "../components/NavBar";
-// import Footer from "../components/Footer";
+import Footer from "../components/Footer";
 import Fitur from "../components/Fitur";
 import Partner from "../components/Partner";
 import Partner2 from "../components/Partner2";
 import Review from "../components/Review";
 import Preview from "../components/Preview";
+import Cerita from "../components/Cerita";
 
 function Home() {
   return (
@@ -50,7 +51,8 @@ function Home() {
       <Partner2 />
       <Review />
       <Preview />
-      {/* <Footer /> */}
+      <Cerita />
+      <Footer />
     </>
   );
 }

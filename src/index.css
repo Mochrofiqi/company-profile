@@ -103,8 +103,16 @@ header {
   border-radius: 30px;
 }
 
-.swiper-container > .swiper-wrapper > .swiper-slide-active {
-    opacity: 1;
+.mySwiper > .swiper-wrapper > .swiper-slide {
+    opacity: 0.8;
     z-index: 1;
-    transform: scale(1.1);
+    transform: scale(0.9);
+    transition: all;
+}
+
+.mySwiper > .swiper-wrapper > .swiper-slide-active {
+  opacity: 1;
+  z-index: 1;
+  transform: scale(1);
+  transition: all;
 }
