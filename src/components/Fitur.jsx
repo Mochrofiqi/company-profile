@@ -25,6 +25,7 @@ export default function Fitur() {
                 loop={true}
                 spaceBetween={10}
                 centeredSlides={true}
+                speed={2000}
                 autoplay={{
                     delay: 5000,
                     disableOnInteraction: false,

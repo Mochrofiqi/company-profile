@@ -1,7 +1,7 @@
 export default function PopUpReview(props) {
     return (
         <>
-            <div className={`fixed inset-0 z-50 items-center ${props.isShow ? '' : 'hidden'} justify-center bg-black bg-opacity-50 modal`}
+            <div onClick={props.isHide} className={`fixed inset-0 z-50 items-center ${props.isShow ? '' : 'hidden'} justify-center bg-black bg-opacity-50 modal`}
                 id="modal-1">
                 <div className="fixed flex items-center justify-center w-full h-full">
                     <div
