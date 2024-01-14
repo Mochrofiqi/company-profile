@@ -5,9 +5,13 @@ import Komisaris from "../components/tentang/Komisaris"
 import Visi from "../components/tentang/Visi"
 import Visimisi from "../components/tentang/Visimisi"
 import Vpmanager from "../components/tentang/Vpmanager"
+import Footer from "../components/Footer"
+import NavBar from "../components/NavBar"
 
 const About = () => {
     return (
+        <>
+      <NavBar />
         <div className="bg-neutral-500">
             <div className=" mx-28">
                 <Deskripsi />
@@ -19,6 +23,8 @@ const About = () => {
                 <Carouseltim />
             </div>
         </div>
+      <Footer />
+        </>
 
     )
 }

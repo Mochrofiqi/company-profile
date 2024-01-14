@@ -31,7 +31,7 @@ export default function Visi() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <section className='h-full w-full m-5 '>
+              <section className='h-80 w-full m-5 '>
                 <div className="rounded-3xl h-full p-8 mx-auto shadow-[rgba(17,_17,_26,_0.1)_0px_0px_20px] bg-white overflow-hidden">
                   <div className="flex flex-col h-full items-center justify-center mx-auto lg:w-full lg:h-full">
                     <h1 className="mb-1 text-2xl font-bold text-primary-100 md:text-3xl xl:text-4xl 2xl:text-4xl">
@@ -45,7 +45,7 @@ export default function Visi() {
               </section>
             </SwiperSlide>
             <SwiperSlide>
-              <section className='h-full w-full m-5'>
+              <section className='h-80 w-full m-5'>
                 <div className="rounded-3xl h-full p-8 mx-auto shadow-[rgba(17,_17,_26,_0.1)_0px_0px_20px] bg-white overflow-hidden">
                   <div className="flex flex-col items-center justify-center mx-auto lg:w-full lg:h-full">
                     <h1 className="mb-1 text-2xl font-bold text-primary-100 md:text-3xl xl:text-4xl 2xl:text-4xl">
