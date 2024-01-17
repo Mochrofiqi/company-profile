@@ -15,7 +15,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 export default function Carouseltim() {
     return (
-        <div className='mt-20'>
+        <div className='mt-20 bg-neutral-500' >
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}

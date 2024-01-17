@@ -14,7 +14,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 export default function Fitur() {
     return (
-        <>
+        <div className='fitur'>
 
             <div className="judul">
                 <h2 className="text-center m-auto p-4 font-semibold md:text-3xl xl:text-4xl">
@@ -94,20 +94,20 @@ export default function Fitur() {
                         </div>
                     </div>
                 </SwiperSlide>
-                        <SwiperSlide className='bg-transparent'>
-                            <div className="flex items-center justify-center m-12 ">
-                                <div className="w-full p-12 h-full rounded-2xl shadow-xl bg-primary-500">
-                                    <img src='/public/FitClaim.svg' alt="Content Image" className="max-w-28 object-cover mb-4 rounded-md m-auto" />
-                                    <h2 className="text-2xl font-semibold mb-2">Fitur Claim</h2>
-                                    <p className="text-gray-600 text-full">Solusi daftar fasilitas kesehatan lebih cepat dan data akurat. Scan Barcode, tunggu nomor atrean.</p>
-                                    <button
-                                        className="m-auto flex items-center justify-center transition-all duration-300 bg-white border lg:mt-4 lg:px-6 lg:py-1 rounded-2xl border-primary-200 hover:border-primary-200 hover:bg-primary-200 hover:transition-colors hover:duration-500 text-primary-200 hover:text-white">
-                                        <span className="text-xs font-semibold lg:text-base font-roboto">Lihat lebih lanjut</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
-                </>
-                );
+                <SwiperSlide className='bg-transparent'>
+                    <div className="flex items-center justify-center m-12 ">
+                        <div className="w-full p-12 h-full rounded-2xl shadow-xl bg-primary-500">
+                            <img src='/public/FitClaim.svg' alt="Content Image" className="max-w-28 object-cover mb-4 rounded-md m-auto" />
+                            <h2 className="text-2xl font-semibold mb-2">Fitur Claim</h2>
+                            <p className="text-gray-600 text-full">Solusi daftar fasilitas kesehatan lebih cepat dan data akurat. Scan Barcode, tunggu nomor atrean.</p>
+                            <button
+                                className="m-auto flex items-center justify-center transition-all duration-300 bg-white border lg:mt-4 lg:px-6 lg:py-1 rounded-2xl border-primary-200 hover:border-primary-200 hover:bg-primary-200 hover:transition-colors hover:duration-500 text-primary-200 hover:text-white">
+                                <span className="text-xs font-semibold lg:text-base font-roboto">Lihat lebih lanjut</span>
+                            </button>
+                        </div>
+                    </div>
+                </SwiperSlide>
+            </Swiper>
+        </div>
+    );
 }
